@@ -55,11 +55,3 @@ hw0008/
 │   └── components.css      # 卡片、表格、Hero Banner 與粉咖元件樣式
 └── images/
     └── poster-cover.jpg    # 影展封面與視覺圖片
-```
-
----
-
-## 🔗 五、 相關交付連結
-* **GitHub 倉庫連結**：`https://github.com/sophia960425-ui/hw0008`
-* **Prompt 說明文件網址**：`https://github.com/sophia960425-ui/hw0008/blob/main/prompt-guide.md`
-* **Vercel 部署正式網址**：`https://hw0008.vercel.app` (以實際部署網址為準)
