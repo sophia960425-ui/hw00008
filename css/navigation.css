@@ -1,0 +1,97 @@
+/* 頂部 Header 與 Navbar 樣式 */
+.main-header {
+    background: linear-gradient(135deg, #fff5f3 0%, #faedeb 100%);
+    padding: 18px 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px solid var(--primary-color, #b56576);
+    box-shadow: 0 4px 15px rgba(181, 101, 118, 0.08);
+}
+
+.main-header .logo a {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #8c4a58;
+    text-decoration: none;
+}
+
+.main-header .logo span {
+    color: #b56576;
+}
+
+.top-nav ul {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #6c584c;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.top-nav a:hover, .top-nav a.active {
+    background-color: #b56576;
+    color: #ffffff;
+}
+
+/* 側邊欄 Sidebar 樣式 */
+.sidebar {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.sidebar-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ebdcd0;
+    box-shadow: 0 4px 12px rgba(165, 115, 105, 0.05);
+}
+
+.sidebar-box h3, .sidebar-box h4 {
+    color: #8c4a58;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #f4dfd8;
+    padding-bottom: 6px;
+}
+
+.side-menu {
+    list-style: none;
+}
+
+.side-menu li {
+    margin-bottom: 8px;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: #5c473e;
+    display: block;
+    padding: 6px 10px;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.side-menu a:hover {
+    background: #faedeb;
+    color: #b56576;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+}

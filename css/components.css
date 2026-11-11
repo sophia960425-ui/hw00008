@@ -1,0 +1,128 @@
+/* 卡片與內容區塊元件 */
+.section-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    border: 1px solid #ebdcd0;
+    box-shadow: 0 6px 18px rgba(165, 115, 105, 0.06);
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #b56576 0%, #6c584c 100%);
+    color: #ffffff;
+    padding: 40px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 1.9rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.btn-primary {
+    display: inline-block;
+    background: #ffffff;
+    color: #b56576;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.section-title {
+    border-left: 5px solid #b56576;
+    padding-left: 12px;
+    margin-bottom: 15px;
+}
+
+.section-title h2 {
+    color: #8c4a58;
+    font-size: 1.4rem;
+}
+
+/* 卡片 (Grid Card) */
+.grid-card {
+    background: #fdfaf7;
+    padding: 18px;
+    border-radius: 10px;
+    border: 1px solid #ebdcd0;
+}
+
+.card-tag {
+    background: #b56576;
+    color: #ffffff;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.info-box .tag {
+    display: inline-block;
+    background: #faedeb;
+    color: #b56576;
+    font-size: 0.85rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: 1px solid #e2c4bc;
+}
+
+/* 影片容器 */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: 1px solid #ebdcd0;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 表格樣式 */
+.info-table-container {
+    overflow-x: auto;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ebdcd0;
+    text-align: left;
+}
+
+.styled-table th {
+    background-color: #f4dfd8;
+    color: #4a3b32;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-top: 25px;
+    color: #8c736a;
+    font-size: 0.9rem;
+    border: 1px solid #ebdcd0;
+}
